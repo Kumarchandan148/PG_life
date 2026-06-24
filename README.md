@@ -1,22 +1,70 @@
-#PGlife# 
+# PG Life
+
+PG Life is a web-based student accommodation platform developed using PHP and MySQL. The application allows users to search for PG accommodations, view property details, register/login, and express interest in available properties.
+
+## Features
+
+- User Registration and Login
+- Search PGs by City
+- View Property Details
+- Property Amenities Display
+- Interested Property Tracking
+- Responsive User Interface
+- MySQL Database Integration
+
+## Tech Stack
+
+- PHP
+- MySQL
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- XAMPP
+
+## Database
+
+The project uses MySQL as the backend database.
+
+Main Tables:
+- users
+- properties
+- amenities
+- properties_amenities
+- interested_users_properties
+- testimonials
+- cities
+
+## Project Structure
+
+```
+PG_life/
+├── api/
+├── css/
+├── img/
+├── includes/
+├── js/
+├── index.php
+├── property_list.php
+├── property_detail.php
+├── dashboard.php
+└── pg_life.sql
+```
+
+## Setup Instructions
+
+1. Install XAMPP.
+2. Start Apache and MySQL.
+3. Copy the project folder into `htdocs`.
+4. Import `pg_life.sql` into phpMyAdmin.
+5. Open:
+
+```
+http://localhost/PG_life_project/
+```
+
+## Author
+
+Chandan Kumar
 
 
-Welcome to PGlife, your one-stop solution for student housing management! Our website is fully functional and ready for deployment on your web server. Please follow the instructions below for a seamless experience:
-
-Step 1: Watch Our Comprehensive Setup Video
-For a detailed demonstration on how to set up the entire project, please watch our full video tutorial on our YouTube channel. In this video, we provide a step-by-step guide on how to get started.
-
-Video link: https://youtu.be/A04U_LK6IkU?si=x9UDf096ZkvunBRo
-
-Step 2: Get the Essential Components
-
-To get started, you'll need two crucial components:
-
-a) GitHub Repository
-We've provided a GitHub repository that contains all the code and files necessary for your PGlife project. You can find it right here on this page.
-
-b) Database Management System (DBMS)
-Our Database Management System is hosted separately on Google Drive. To access the database file, please refer to the link in the YouTube video description.
-
-
-Please feel free to let me know if you have any further revisions or specific changes you'd like to make.
