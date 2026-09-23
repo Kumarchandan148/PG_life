@@ -1,7 +1,5 @@
 # PG Life
 
-# PG Life
-
 PG Life is a web-based **Student Accommodation Management System** developed using **PHP, MySQL, HTML, CSS, Bootstrap, and JavaScript**.
 
 The application helps students search for PG accommodations in different cities, view property details, check available amenities, and manage their interested properties.
