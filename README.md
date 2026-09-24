@@ -92,9 +92,7 @@ The PG Life application should now be available locally.
 
 > **Note:** This is a local PHP application. It cannot be executed directly from the GitHub repository page. The repository contains the source code and SQL database backup; Apache/PHP and MySQL are required to run it.
 
-```
-http://localhost/PG_life_project/
-```
+
 
 ## Author
 
